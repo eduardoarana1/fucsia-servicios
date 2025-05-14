@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    font-family: 'UltraCondensedSansSerif';
+    background-image: url(img-photobook/Fondo\ web\ Fucsia\ Frame_02a.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+        
+
+.navbar {
+    font-family: 'UltraCondensedSansSerif';
+}
+
+.navbar-nav li {
+    list-style: none;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.navbar-nav li:hover ul {
+    display: block;
+}
+
+.navbar-nav ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.navbar-nav ul li a {
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar-nav ul li a:hover {
+    background-color: #ddd;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    padding: 0;
+}
+
+.text-container-1 {
+    width: 90%;
+    max-width: 1000px;
+    background: linear-gradient(rgba(255, 255, 255, .60));
+    margin: 1rem auto;
+    font-family: 'UltraCondensedSansSerif';
+    text-align: justify;
+    font-size: 22px;    
+    padding: 30px;    
+}
+
+
+
+.album-container {
+    width: 90%;
+    max-width: 1000px;
+    background: linear-gradient(rgba(255, 255, 255, .60));
+    margin: 1rem auto;
+    font-family: 'UltraCondensedSansSerif';
+    text-align: justify;
+    font-size: 22px;    
+    padding: 20px;
+}
+    
+    
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'UltraCondensedSansSerif';
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.premium-2 {
+    display: none;
+}
+
+.deluxe-2 {
+    display: none;
+}
+    
+
+
+.gallery-container-1 {
+    width: 90%;
+    max-width: 1000px;
+    margin: 1rem auto;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.gallery-item {
+    margin: 2px;    
+    }
+         
+.gallery-container-2 {
+    width: 90%;
+    max-width: 1000px;
+    margin: 1rem auto;
+    column-count: 2;       
+}
+
+.footer {
+    margin: 0;
+    width: 100%;    
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'UltraCondensedSansSerif';
+    background-color: rgb(255, 229, 254);
+    
+}
+
+.footer p {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-size: clamp(1rem, 2vw, 2rem);
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 390px) {
+
+    .nav-link {
+        width: 110px;
+    }
+
+    .text-container-1 {      
+        margin: 1rem auto;        
+        text-align: justify;
+        font-size: 16px;        
+        padding: 30px;
+    }
+
+    .premium-1 {
+        display: none;
+    }
+
+    .deluxe-1 {
+        display: none;
+        
+    }
+
+    .premium-2 {
+        display: grid;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .deluxe-2 {
+        display: grid;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .footer img {
+        width: 40px;
+    }
+
+}
+
+      
+@media screen and (min-width: 391px) and (max-width: 767px) {
+
+    .nav-link {
+        width: 110px;
+    }
+
+    .text-container-1 {      
+        margin: 1rem auto;        
+        text-align: justify;
+        font-size: 16px;        
+        padding: 30px;
+    }
+
+    .premium-1 {
+        text-align: justify;
+    }
+
+    .deluxe-1 {
+        text-align: justify;
+    }
+
+    .premium-2 {
+        display: none;
+    }
+
+    .deluxe-2 {
+        display: none;
+    }
+
+    .footer img {
+        width: 40px;
+    }
+
+}
+
+    
+@media screen and (min-width: 768px) and (max-width: 990px) {
+
+    .nav-link {
+        width: 110px;
+    }
+
+    .text-container-1 {      
+        margin: 1rem auto;        
+        text-align: justify;
+        font-size: 18px;        
+        padding: 30px;
+    }
+
+    .premium-2 {
+        display: none;
+    }
+
+    .deluxe-2 {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 667px) and (max-width: 926px) and (orientation: landscape) {
+
+    .footer img {
+        width: 40px;
+    }
+
+}
+
+
+
+    
+    
+
+
+
+
+
+
+
