@@ -149,6 +149,10 @@ h3 {
 
 @media screen and (min-width: 360px) and (max-width: 390px) {
 
+    body {
+        font-family: 'UltraCondensedSansSerif';
+    }
+
     .nav-link {
         width: 110px;
     }
@@ -158,6 +162,7 @@ h3 {
         text-align: justify;
         font-size: 16px;        
         padding: 30px;
+        font-family: 'UltraCondensedSansSerif';
     }
 
     .premium-1 {
@@ -173,12 +178,14 @@ h3 {
         display: grid;
         text-align: left;
         font-size: 16px;
+        font-family: 'UltraCondensedSansSerif';
     }
 
     .deluxe-2 {
         display: grid;
         text-align: left;
         font-size: 16px;
+        font-family: 'UltraCondensedSansSerif';
     }
 
     .footer img {
@@ -190,6 +197,11 @@ h3 {
       
 @media screen and (min-width: 391px) and (max-width: 767px) {
 
+    body {
+        font-family: 'UltraCondensedSansSerif';
+    }
+        
+
     .nav-link {
         width: 110px;
     }
@@ -199,14 +211,17 @@ h3 {
         text-align: justify;
         font-size: 16px;        
         padding: 30px;
+        font-family: 'UltraCondensedSansSerif';
     }
 
     .premium-1 {
         text-align: justify;
+        font-family: 'UltraCondensedSansSerif';
     }
 
     .deluxe-1 {
         text-align: justify;
+        font-family: 'UltraCondensedSansSerif';
     }
 
     .premium-2 {
